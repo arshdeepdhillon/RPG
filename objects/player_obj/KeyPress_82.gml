@@ -1,1 +1,3 @@
-game_restart(); //when "r" is pressed
+//game_restart(); //when "r" is pressed
+
+SlideTransition(TRANS_MODE.RESTART);

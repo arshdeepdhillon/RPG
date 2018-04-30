@@ -1,19 +1,29 @@
 //happens at every single frame
 
 //get keyboard input
-left_key = keyboard_check(vk_left) or keyboard_check(ord("A"));
-right_key = keyboard_check(vk_right) or keyboard_check(ord("D"));
-jump_key = keyboard_check_pressed(vk_up) or keyboard_check(ord("W"));
 
-//calculate player movement
-var move = right_key - left_key;
-horiSpeed = move * walkSpeed;
-
-vertSpeed += grv;
-
-if(place_meeting(x,y + 1, wall_obj) && jump_key) 
+if(hasControl)
 {
-	vertSpeed = -7;
+	left_key = keyboard_check(vk_left) or keyboard_check(ord("A"));
+	right_key = keyboard_check(vk_right) or keyboard_check(ord("D"));
+	jump_key = keyboard_check_pressed(vk_up) or keyboard_check(ord("W"));
+
+	//calculate player movement
+	var move = right_key - left_key;
+	horiSpeed = move * walkSpeed;
+
+	vertSpeed += grv;
+
+	if(place_meeting(x,y + 1, wall_obj) && jump_key) 
+	{
+		vertSpeed = -7;
+	}
+}
+else
+{
+	right_key = 0;
+	left_key = 0;
+	jump_key = 0;
 }
 
 

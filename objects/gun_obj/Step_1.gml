@@ -12,6 +12,8 @@ if(mouse_check_button(mb_left) && firingdelay < 0)
 	firingdelay = 5;
 	recoil = 4;
 	
+	ScreenShake(2, 10);
+	
 	//with: indicates all instances of this object are to run in the code block
 	//instance_create_layer: Returns: instance ID value	
 	with (instance_create_layer(x, y, "Bullets", bullet_obj))

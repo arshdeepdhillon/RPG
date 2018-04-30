@@ -7,11 +7,10 @@ if(place_meeting(x + horiSpeed, y, wall_obj))
 	{
 		x += sign(horiSpeed);
 	}
-	horiSpeed = 0;	
+	horiSpeed = -horiSpeed;	
 }
 
 x += horiSpeed; //move 
-
 
 //calculates vertical collision
 if(place_meeting(x, y + vertSpeed, wall_obj))
