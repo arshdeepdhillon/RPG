@@ -1,0 +1,1 @@
+game_restart(); //when "r" is pressed

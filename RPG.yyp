@@ -47,11 +47,35 @@
             }
         },
         {
+            "Key": "1470883b-cf0b-4752-a524-8b1859d9a506",
+            "Value": {
+                "id": "749cd922-1b04-4ab2-bee7-ad1277f05d48",
+                "resourcePath": "objects\\enemy_obj\\enemy_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "269286db-34c3-44ae-9420-12f49a4192bb",
             "Value": {
                 "id": "a8bfe5ea-0558-4088-b045-59b250d24f7c",
                 "resourcePath": "views\\269286db-34c3-44ae-9420-12f49a4192bb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "26f77c35-7509-4897-8d99-f16c7d759b40",
+            "Value": {
+                "id": "e5a00c2f-e7e4-46e8-a2d6-8d38f4689b33",
+                "resourcePath": "sprites\\enemy_runningS\\enemy_runningS.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2e580a36-1e8a-4121-a7cd-86eca434e80e",
+            "Value": {
+                "id": "5b39bc73-1f6d-41c9-8f39-d2b57abe36cc",
+                "resourcePath": "sprites\\bulletS\\bulletS.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -63,10 +87,26 @@
             }
         },
         {
+            "Key": "62687aa2-79aa-41fa-b6db-9ac31baed27d",
+            "Value": {
+                "id": "354025f3-9b90-49eb-b41e-4d5ddc907230",
+                "resourcePath": "sprites\\enemy_deadS\\enemy_deadS.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "715f79b8-f72f-4882-a3c1-9917042d8110",
+            "Value": {
+                "id": "509b195f-6cb3-4db4-80ef-783d7737af63",
+                "resourcePath": "sprites\\enemyS\\enemyS.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "822c0674-d801-48e1-9bb1-b97c501af81b",
             "Value": {
                 "id": "2c83ea21-e97e-4c06-bae9-5cbc6660170c",
-                "resourcePath": "sprites\\player_sprite\\player_sprite.yy",
+                "resourcePath": "sprites\\playerS\\playerS.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -111,11 +151,27 @@
             }
         },
         {
+            "Key": "a58c6298-4023-4ba1-adb5-c78f52ba7f98",
+            "Value": {
+                "id": "18b02a79-5264-40a3-a434-903af4596f2e",
+                "resourcePath": "sprites\\enemy_jumpingS\\enemy_jumpingS.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "afcd8242-444d-4bbe-bf53-4e902d382717",
             "Value": {
                 "id": "0c0ae3e5-574f-47e8-a905-eb185301903c",
                 "resourcePath": "views\\afcd8242-444d-4bbe-bf53-4e902d382717.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b0aac373-0e5a-4636-a5fe-ba15bb28e357",
+            "Value": {
+                "id": "31075c41-7638-4e0c-b907-ad6acef94d07",
+                "resourcePath": "objects\\bullet_obj\\bullet_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -146,7 +202,7 @@
             "Key": "bdcd7153-148b-4490-8344-6eb24b7610a4",
             "Value": {
                 "id": "55effa8a-5f6c-4b58-bc90-0e4162a2e6d6",
-                "resourcePath": "sprites\\jumping_sprite_player\\jumping_sprite_player.yy",
+                "resourcePath": "sprites\\player_jumpingS\\player_jumpingS.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -194,7 +250,7 @@
             "Key": "cf54003d-a83c-4eca-bbf4-2cc33f5134dc",
             "Value": {
                 "id": "83c65b37-f534-40da-9a12-07a944b739e6",
-                "resourcePath": "sprites\\running_sprite_player\\running_sprite_player.yy",
+                "resourcePath": "sprites\\player_runningS\\player_runningS.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -226,15 +282,7 @@
             "Key": "f657433f-316f-4bab-a8f9-8c2e240934e0",
             "Value": {
                 "id": "88b19e28-22ed-4d4d-8a30-dc2d261c5522",
-                "resourcePath": "sprites\\guns\\guns.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "f87cba00-b82d-41ff-986a-440d9236d8c6",
-            "Value": {
-                "id": "e7a0ce8a-2525-4c29-887f-982f17cd0824",
-                "resourcePath": "sprites\\sprite5\\sprite5.yy",
+                "resourcePath": "sprites\\gunS\\gunS.yy",
                 "resourceType": "GMSprite"
             }
         },
