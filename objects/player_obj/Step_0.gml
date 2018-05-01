@@ -16,7 +16,7 @@ if(hasControl)
 
 	if(place_meeting(x,y + 1, wall_obj) && jump_key) 
 	{
-		vertSpeed = -7;
+		vertSpeed = -8;
 	}
 }
 else

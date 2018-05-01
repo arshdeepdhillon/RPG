@@ -22,3 +22,32 @@ shake_remain = max(0, shake_remain - ((1 / shake_length) * shake_magnitude));
 //update camera view
 camera_set_view_pos(cam, x - view_w_half, y - view_h_half);
 
+
+//for parallax
+if(layer_exists("Mountain_Far"))
+{
+	layer_x("Mountain_Far", x);
+}
+
+if(layer_exists("Mountain_Close"))
+{
+	layer_x("Mountain_Close", x/2);
+}
+
+if(layer_exists("Trees_Close"))
+{
+	layer_x("Trees_Close", x/4);
+}
+
+if(layer_exists("Trees_Far"))
+{
+	layer_x("Trees_Far", x/6);
+}
+
+
+
+
+
+
+
+
