@@ -13,6 +13,8 @@ if(mouse_check_button(mb_left) && firingdelay < 0)
 	recoil = 4;
 	
 	ScreenShake(2, 10);
+	audio_play_sound(shoot_snd,5, false); //priority value random, choose any number
+	
 	
 	//with: indicates all instances of this object are to run in the code block
 	//instance_create_layer: Returns: instance ID value	

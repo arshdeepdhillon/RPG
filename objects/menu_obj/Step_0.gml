@@ -30,6 +30,7 @@ if(menu_control)
 		menu_committed = menu_cursor;
 		ScreenShake(10,30);
 		menu_control = false;
+		audio_play_sound(dead_snd, 10, false);
 	}
 }
 

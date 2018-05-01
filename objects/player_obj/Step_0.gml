@@ -73,7 +73,7 @@ if(!place_meeting(x, y + 1, wall_obj)) //if there is not collision 1 pixel below
 	image_speed = 0;	
 	if(sign(vertSpeed) > 0)
 	{
-		//image_index = 1;
+		image_index = 1;
 	}
 	else
 	{
@@ -82,6 +82,12 @@ if(!place_meeting(x, y + 1, wall_obj)) //if there is not collision 1 pixel below
 }
 else
 {
+	if(sprite_index = player_jumpingS)
+	{
+		audio_play_sound(landing_snd, 4, false);
+	}
+	
+	
 	image_speed = 1;
 	if(horiSpeed == 0)
 	{

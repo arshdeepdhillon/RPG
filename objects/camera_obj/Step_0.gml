@@ -4,6 +4,12 @@ if(instance_exists(follow))
 {
 	xTo = follow.x;
 	yTo = follow.y;
+	
+	if(follow.object_index == player_dead_obj) //if we are dead
+	{
+		x = xTo;
+		y = yTo;
+	}
 }
 
 //update this objects position
